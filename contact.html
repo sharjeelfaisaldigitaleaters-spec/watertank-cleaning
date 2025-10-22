@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - WaterTankClean</title>
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header data-aos="fade-down" data-aos-duration="800">
+    <nav class="navbar">
+      <div class="logo" data-aos="zoom-in">💧 WaterTankClean</div>
+
+      <!-- Mobile Menu Toggle -->
+      <div class="menu-toggle">☰</div>
+
+      <ul class="nav-links" data-aos="fade-left" data-aos-delay="200">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero contact-hero" data-aos="fade-up" data-aos-duration="1000">
+    <div class="hero-content" data-aos="zoom-in" data-aos-delay="200">
+      <h1>Contact Us</h1>
+      <p>We’re just one call away — reach out today for clean, safe, and healthy water tanks.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="contact-section">
+    <div class="container">
+      <h2 data-aos="fade-up" data-aos-duration="1000">Get In Touch</h2>
+      <p data-aos="fade-up" data-aos-delay="150" data-aos-duration="900">
+        Fill out the form below and we’ll get back to you as soon as possible.
+      </p>
+
+      <form class="contact-form" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-info" data-aos="fade-up" data-aos-delay="500" data-aos-duration="900">
+        <h3>Or Contact Us Directly:</h3>
+        <p>📞 <strong>+92 310 4315950</strong></p>
+        <p>📧 <strong>info@watertankclean.com</strong></p>
+        <p>📍 <strong>Lahore, Pakistan</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta" data-aos="fade-up" data-aos-duration="1000">
+    <div class="cta-content">
+      <h2>Ready to Book a Cleaning?</h2>
+      <p>Our experts are available 7 days a week to ensure your water stays clean and safe. Let’s make your tanks sparkle again!</p>
+      <a href="tel:+923104315950" class="btn">📞 Call Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer data-aos="fade-up" data-aos-duration="900">
+    <p>&copy; 2025 WaterTankClean. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      offset: 120,
+      once: true,
+      easing: 'ease-out-cubic'
+    });
+  </script>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+
+  <!-- Floating Button -->
+  <a href="contact.html" class="float-btn" data-aos="zoom-in" data-aos-delay="300">💧 Book Now</a>
+</body>
+</html>

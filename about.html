@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - WaterTankClean</title>
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header data-aos="fade-down" data-aos-duration="800">
+    <nav class="navbar">
+      <div class="logo" data-aos="zoom-in">💧 WaterTankClean</div>
+
+      <!-- Mobile Menu Toggle -->
+      <div class="menu-toggle">☰</div>
+
+      <ul class="nav-links" data-aos="fade-left">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero about-hero" data-aos="fade-up" data-aos-duration="1000">
+    <div class="hero-content" data-aos="zoom-in" data-aos-delay="200">
+      <h1>About Our Company</h1>
+      <p>We are dedicated to providing professional and hygienic water tank cleaning services to ensure your family’s health and safety.</p>
+    </div>
+  </section>
+
+  <!-- About Content Section -->
+  <section class="about-section">
+    <div class="container">
+      <h2 data-aos="fade-up" data-aos-duration="1000">Our Mission</h2>
+      <p data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
+        To deliver safe, clean, and efficient water tank cleaning services using eco-friendly and modern technology. 
+        Our trained professionals make sure every drop of your water stays pure and fresh.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-text" data-aos="fade-right" data-aos-duration="1000">
+          <h2>Why Choose Us?</h2>
+          <ul>
+            <li>✔ Experienced & Certified Cleaning Team</li>
+            <li>✔ Eco-friendly and safe cleaning materials</li>
+            <li>✔ Affordable and transparent pricing</li>
+            <li>✔ 24/7 Emergency Customer Support</li>
+          </ul>
+        </div>
+        <div class="about-image" data-aos="fade-left" data-aos-duration="1000">
+          <img 
+            src="https://images.unsplash.com/photo-1581579188871-45ea61f2a0c8?auto=format&fit=crop&w=800&q=80" 
+            alt="Water tank cleaning in progress"
+            onerror="this.style.display='none';"
+          >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call To Action Section -->
+  <section class="cta" data-aos="zoom-in" data-aos-duration="1000">
+    <div class="cta-content">
+      <h2>Book a Professional Tank Cleaning Today</h2>
+      <p>Clean, safe, and hygienic water is just one click away. Get your tank professionally cleaned now.</p>
+      <a href="contact.html" class="btn">💧 Get a Free Quote</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer data-aos="fade-up" data-aos-duration="1000">
+    <p>&copy; 2025 WaterTankClean. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      offset: 120,
+      once: true,
+      easing: 'ease-out-cubic'
+    });
+  </script>
+
+  <!-- Main JS -->
+  <script src="js/script.js"></script>
+
+  <!-- Floating Button -->
+  <a href="contact.html" class="float-btn" data-aos="zoom-in" data-aos-delay="200">💧 Book Now</a>
+</body>
+</html>
