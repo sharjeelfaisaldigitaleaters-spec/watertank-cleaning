@@ -15,11 +15,8 @@
   <!-- Header -->
   <header data-aos="fade-down" data-aos-duration="800">
     <nav class="navbar">
-      <div class="logo" data-aos="zoom-in">💧 WaterTankClean</div>
-
-      <!-- Mobile Menu Toggle -->
+      <div class="logo" data-aos="zoom-in">💧 Aqua Clear System</div>
       <div class="menu-toggle">☰</div>
-
       <ul class="nav-links" data-aos="fade-left" data-aos-delay="200">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -45,14 +42,18 @@
         Fill out the form below and we’ll get back to you as soon as possible.
       </p>
 
-      <form class="contact-form" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+      <!-- Contact Form With ID -->
+      <form id="contactForm" class="contact-form" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
         <label for="name">Full Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your full name" required>
 
         <label for="email">Email Address</label>
         <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-        <label for="message">Your Message</label>
+        <label for="phone">Contact Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter 10-digit phone number" required pattern="[0-9]{10}" title="Please enter 10 digits">
+        <small>Only digits allowed. Country code +92 will be added automatically.</small>
+
         <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
 
         <button type="submit" class="btn">Send Message</button>
@@ -60,8 +61,8 @@
 
       <div class="contact-info" data-aos="fade-up" data-aos-delay="500" data-aos-duration="900">
         <h3>Or Contact Us Directly:</h3>
-        <p>📞 <strong>+92 310 4315950</strong></p>
-        <p>📧 <strong>info@watertankclean.com</strong></p>
+        <p>📞 <strong>+923133313365</strong></p>
+        <p>📧 <strong>aquaclearsystem001@gmail.com</strong></p>
         <p>📍 <strong>Lahore, Pakistan</strong></p>
       </div>
     </div>
@@ -72,7 +73,7 @@
     <div class="cta-content">
       <h2>Ready to Book a Cleaning?</h2>
       <p>Our experts are available 7 days a week to ensure your water stays clean and safe. Let’s make your tanks sparkle again!</p>
-      <a href="tel:+923104315950" class="btn">📞 Call Now</a>
+      <a href="tel:+923133313365" class="btn">📞 Call Now</a>
     </div>
   </section>
 
@@ -92,10 +93,16 @@
     });
   </script>
 
-  <!-- JavaScript -->
+  <!-- Main JS -->
   <script src="js/script.js"></script>
 
   <!-- Floating Button -->
   <a href="contact.html" class="float-btn" data-aos="zoom-in" data-aos-delay="300">💧 Book Now</a>
+
+  <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+  <a href="https://wa.me/923133313365" class="whatsapp-btn" target="_blank" data-aos="zoom-in" data-aos-delay="600">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Chat">
+  </a>
+  
 </body>
 </html>
